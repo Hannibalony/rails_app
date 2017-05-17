@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def goodbye
-    render html: "new text"
+    render html: "test text"
   end
  
 end
